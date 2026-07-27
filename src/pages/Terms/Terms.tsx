@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useRef } from 'react';
 import { Download, MessageCircle, AlertTriangle } from 'lucide-react';
 
 import { scrollToElement } from '@utils/helpers';
@@ -12,7 +12,7 @@ const contentRef = useRef<HTMLDivElement>(null);
       <div className="doc-page__header">
         <div className="container">
           <span className="doc-page__badge">Legal Document</span>
-          <div className="doc-page__meta">Last Updated: October 14, 2026</div>
+          <div className="doc-page__meta">Last Updated: July 27, 2026</div>
           <h1 className="doc-page__title">Terms &amp; Conditions</h1>
           <p className="doc-page__intro">
             Please read these Terms and Conditions carefully before using the MedsSeva platform.
@@ -336,12 +336,12 @@ const contentRef = useRef<HTMLDivElement>(null);
           <section id="dispute-resolution" className="doc-section">
             <h2 className="doc-section__title"><span className="doc-section__num">17</span> Governing Law and Dispute Resolution</h2>
             <p><strong>Governing Law:</strong> These Terms and all matters arising out of or relating to these Terms and your use of the Platform shall be governed by and construed in accordance with the laws of India, without regard to its conflict of laws principles.</p>
-            <p><strong>Jurisdiction:</strong> The courts at [Insert City, State] shall have exclusive jurisdiction over any disputes arising out of or relating to these Terms or your use of the Platform.</p>
+          <p><strong>Jurisdiction:</strong> The courts at Noida, Uttar Pradesh shall have exclusive jurisdiction over any disputes arising out of or relating to these Terms or your use of the Platform.</p>
             <p><strong>Arbitration:</strong></p>
             <ul className="doc-list">
               <li>Any dispute, controversy, or claim arising out of or relating to these Terms, including the existence, validity, interpretation, performance, breach, or termination thereof, shall be resolved by arbitration in accordance with the Arbitration and Conciliation Act, 1996.</li>
               <li>The arbitration shall be conducted by a sole arbitrator mutually appointed by the parties. If the parties fail to agree on the appointment of the arbitrator, the arbitrator shall be appointed in accordance with the provisions of the Arbitration and Conciliation Act, 1996.</li>
-              <li>The seat and venue of arbitration shall be [Insert City, State].</li>
+            <li>The seat and venue of arbitration shall be Noida, Uttar Pradesh.</li>
               <li>The language of the arbitration proceedings shall be English.</li>
               <li>The award rendered by the arbitrator shall be final and binding on the parties.</li>
             </ul>
@@ -352,14 +352,14 @@ const contentRef = useRef<HTMLDivElement>(null);
             <h2 className="doc-section__title"><span className="doc-section__num">18</span> Contact Information</h2>
             <p>For any questions, concerns, or grievances regarding these Terms or your use of the Platform, please contact us at:</p>
             <p><strong>Company Name:</strong> MedsSeva</p>
-            <p><strong>Company Address:</strong> [Insert Full Registered Office Address]</p>
-            <p><strong>Support Email:</strong> [Insert Support Email Address]</p>
-            <p><strong>Support Phone:</strong> [Insert Support Phone Number]</p>
+           <p><strong>Company Address:</strong> Noida</p>
+            <p><strong>Support Email:</strong> info@medsseva.com</p>
+            <p><strong>Support Phone:</strong> +91-9205109007</p>
             <p><strong>Grievance Officer:</strong> In accordance with the Information Technology Act, 2000 and the Digital Personal Data Protection Act, 2023, we have designated a Grievance Officer to address your complaints and concerns regarding data protection and platform usage.</p>
-            <p><strong>Name:</strong> [Insert Grievance Officer Name]</p>
-            <p><strong>Designation:</strong> [Insert Grievance Officer Designation]</p>
-            <p><strong>Email:</strong> [Insert Grievance Officer Email Address]</p>
-            <p><strong>Phone:</strong> [Insert Grievance Officer Phone Number]</p>
+           <p><strong>Name:</strong> Tanisha Bhatt</p>
+            <p><strong>Designation:</strong> Data Protection Officer</p>
+            <p><strong>Email:</strong> tanishabhatt2318@gmail.com</p>
+            <p><strong>Phone:</strong> 8377011303</p>
           </section>
 
           <section id="general" className="doc-section">

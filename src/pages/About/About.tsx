@@ -45,7 +45,7 @@ const AboutPage: React.FC = () => {
           >
             <h1 className="about-hero__title">Who We Are</h1>
             <p className="about-hero__desc">
-              MedSeva is a pioneer in digital-first diagnostic care, bridging the gap
+              MedsSeva is a pioneer in digital-first diagnostic care, bridging the gap
               between clinical excellence and modern accessibility. We believe that
               precise diagnostics are the cornerstone of proactive health management.
             </p>
@@ -60,7 +60,7 @@ const AboutPage: React.FC = () => {
           >
             <img
               src="/images/about-team.jpg"
-              alt="MedSeva medical team in a modern laboratory"
+              alt="MedsSeva  medical team in a modern laboratory"
               className="about-hero__img"
             />
             <div className="about-hero__img-placeholder">
@@ -73,7 +73,7 @@ const AboutPage: React.FC = () => {
                   <rect width="28" height="28" rx="8" fill="#0d6b56" />
                   <path d="M14 6v16M6 14h16" stroke="#fff" strokeWidth="3" strokeLinecap="round" />
                 </svg>
-                <span>MedSeva</span>
+                <span>MedsSeva</span>
               </div>
               <p>Certified &amp; Trusted</p>
             </div>
@@ -149,7 +149,7 @@ const AboutPage: React.FC = () => {
             <motion.div variants={fadeUp} className="section-header">
               <h2 className="section-title">Leadership Team</h2>
               <p className="section-subtitle">
-                The minds steering MedSeva towards a healthier future.
+                The minds steering MedsSeva towards a healthier future.
               </p>
             </motion.div>
 
@@ -179,7 +179,7 @@ const AboutPage: React.FC = () => {
       </section>
 
       {/* ─── CTA ─── */}
-      <section className="about-cta section-sm" aria-label="Join MedSeva">
+      <section className="about-cta section-sm" aria-label="Join MedsSeva">
         <div className="container">
           <div className="about-cta__inner">
             <div className="about-cta__icons">
@@ -188,7 +188,7 @@ const AboutPage: React.FC = () => {
             </div>
             <h2 className="about-cta__title">Ready to experience the future of diagnostics?</h2>
             <p className="about-cta__desc">
-              Book your first test today and discover how MedSeva is changing healthcare delivery across India.
+              Book your first test today and discover how MedsSeva is changing healthcare delivery across India.
             </p>
             <div className="about-cta__actions">
               <Button to="/contact" variant="primary" size="lg">Book a Test</Button>

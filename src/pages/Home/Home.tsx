@@ -206,11 +206,11 @@ const HomePage: React.FC = () => {
       </section>
 
       {/* ─── WHY CHOOSE ─── */}
-      <section className="why-choose section" aria-label="Why choose MedSeva">
+      <section className="why-choose section" aria-label="Why choose MedsSeva">
         <div className="container">
           <AnimatedSection>
             <motion.div variants={fadeUp} className="section-header">
-              <h2 className="section-title">Why Choose MedSeva?</h2>
+              <h2 className="section-title">Why Choose MedsSeva?</h2>
             </motion.div>
 
             <div className="why-grid">
@@ -440,7 +440,7 @@ const HomePage: React.FC = () => {
                 <div className="download__phone-glow" />
                 <div className="download__phone-placeholder">
                   <Smartphone size={64} strokeWidth={1} />
-                  <span>MedSeva App</span>
+                  <span>MedsSeva App</span>
                 </div>
               </motion.div>
             </div>

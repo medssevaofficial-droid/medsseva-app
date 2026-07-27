@@ -13,7 +13,7 @@ const PrivacyPage: React.FC = () => {
       <div className="doc-page__header">
         <div className="container">
           <span className="doc-page__badge">Legal Document Section</span>
-          <div className="doc-page__meta">Last Updated: October 14, 2026</div>
+          <div className="doc-page__meta">Last Updated: July 27, 2026</div>
           <h1 className="doc-page__title">Privacy Policy</h1>
           <p className="doc-page__intro">
             This Privacy Policy explains how MedsSeva collects, uses, stores, and
@@ -312,10 +312,10 @@ const PrivacyPage: React.FC = () => {
               <span className="doc-section__num">14</span> Grievance Redressal
             </h2>
             <p>We are committed to timely resolution of your grievances. If you have any questions, concerns, or complaints regarding this Privacy Policy or our data processing practices, please contact our Grievance Officer:</p>
-            <p><strong>Name:</strong> [Insert Grievance Officer Name]</p>
-            <p><strong>Designation:</strong> [Insert Grievance Officer Designation]</p>
-            <p><strong>Email:</strong> [Insert Grievance Officer Email Address]</p>
-            <p><strong>Phone:</strong> [Insert Grievance Officer Phone Number]</p>
+          <p><strong>Name:</strong> Tanisha Bhatt</p>
+            <p><strong>Designation:</strong> Data Protection Officer</p>
+            <p><strong>Email:</strong> tanishabhatt2318@gmail.com</p>
+            <p><strong>Phone:</strong> 8377011303</p>
             <p>We shall acknowledge your complaint within 24 hours and endeavor to resolve it within 30 days.</p>
             <p>If you are not satisfied with our resolution, you may escalate your complaint to the Data Protection Board of India under the DPDP Act.</p>
           </section>
@@ -354,15 +354,15 @@ const PrivacyPage: React.FC = () => {
               </div>
               <div className="privacy-contact-row">
                 <Mail size={14} />
-                <span>Company Address: [Insert Full Registered Office Address]</span>
+              <span>Company Address: Noida</span>
               </div>
               <div className="privacy-contact-row">
                 <Mail size={14} />
-                <span>Support Email: [Insert Support Email Address]</span>
+              <span>Support Email: info@medsseva.com</span>
               </div>
               <div className="privacy-contact-row">
                 <Mail size={14} />
-                <span>Support Phone: [Insert Support Phone Number]</span>
+              <span>Support Phone: +91-9205109007</span>
               </div>
             </div>
           </section>

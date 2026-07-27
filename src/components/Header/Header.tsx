@@ -19,10 +19,10 @@ const Header: React.FC = () => {
   <header className={`header ${isScrolled ? 'header--scrolled' : ''}`} role="banner" style={{ background: 'linear-gradient(90deg, #0a6b5e 0%, #12a090 100%)' }}>
       <div className="container header__inner">
         {/* Logo */}
-      <Link to="/" className="header__logo" aria-label="MedSeva Home">
+      <Link to="/" className="header__logo" aria-label="MedsSeva Home">
    <img
               src="/logo.png"
-              alt="MedSeva logo"
+              alt="MedsSeva logo"
               style={{ display: 'block', height: '60px', width: '220px', objectFit: 'cover', objectPosition: '50% 50%' }}
             />
         </Link>

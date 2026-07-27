@@ -18,10 +18,10 @@ const Footer: React.FC = () => {
         <div className="container footer__grid">
           {/* Brand Column */}
           <div className="footer__brand">
-         <Link to="/" className="footer__logo" aria-label="MedSeva Home">
+         <Link to="/" className="footer__logo" aria-label="MedsSeva Home">
               <img
                 src="/logo.png"
-                alt="MedSeva logo"
+                alt="MedsSeva logo"
                 style={{ display: 'block', height: '60px', width: '220px', objectFit: 'cover', objectPosition: '50% 50%' }}
               />
             </Link>
