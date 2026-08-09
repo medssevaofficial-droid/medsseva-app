@@ -1,5 +1,5 @@
 import { Smartphone, ShieldAlert, ExternalLink } from "lucide-react";
-import "./BuildDownload.css";
+import "../styles/BuildDownload.css";
 
 export default function BuildDownload() {
   const downloadUrl = "https://mega.nz/file/NutCkRaA#vN6tf2E517GkJn7vXPm352XQ1eR0unb3fmUaCOoazB8";

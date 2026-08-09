@@ -9,6 +9,7 @@ import TermsAndConditions from './pages/TermsAndConditions'
 import PrivacyPolicy from './pages/PrivacyPolicy'
 import Contact from './pages/Contact'
 import BuildDownload from './pages/BuildDownload'
+import Copyright from './pages/Copyright'
 
 function AnimatedRoutes() {
   const location = useLocation()
@@ -43,7 +44,8 @@ function AnimatedRoutes() {
         <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
      <Route path="/contact" element={<Contact />} />
-        <Route path="/download" element={<BuildDownload />} />
+      <Route path="/download" element={<BuildDownload />} />
+        <Route path="/copyright" element={<Copyright />} />
       </Routes>
     </div>
   )

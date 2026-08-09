@@ -1,5 +1,5 @@
 import useScrollReveal from '../components/useScrollReveal'
-import styles from './Legal.module.css'
+import styles from '../styles/Legal.module.css'
 
 
 export default function TermsAndConditions() {

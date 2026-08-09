@@ -24,8 +24,9 @@ export default function Footer() {
 
         <div className={styles.col}>
           <h4 className={styles.colTitle}>Legal</h4>
-          <Link to="/privacy-policy" className={styles.colLink}>Privacy Policy</Link>
+      <Link to="/privacy-policy" className={styles.colLink}>Privacy Policy</Link>
           <Link to="/terms-and-conditions" className={styles.colLink}>Terms of Service</Link>
+          <Link to="/copyright" className={styles.colLink}>Copyright Policy</Link>
         </div>
 
         <div className={styles.col}>

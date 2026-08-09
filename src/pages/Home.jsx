@@ -8,7 +8,7 @@ import homeCollectionImg from '/Home-Collection.png'
 import reportImg from '/report.png'
 import prescriptionImg from '/prescription.png'
 import labImg from '/lab.png'
-import styles from './Home.module.css'
+import styles from '../styles/Home.module.css'
 
 const services = [
   {

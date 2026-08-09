@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import useScrollReveal from '../components/useScrollReveal'
-import styles from './Contact.module.css'
+import styles from '../styles/Contact.module.css'
 
 const enquiryTypes = [
   { value: '', label: 'Select an option' },

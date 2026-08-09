@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import useScrollReveal from '../components/useScrollReveal'
 import aboutImg from '/About.png'
-import styles from './About.module.css'
+import styles from '../styles/About.module.css'
 
 const whatWeDo = [
   {
