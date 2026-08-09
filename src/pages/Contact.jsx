@@ -54,7 +54,8 @@ export default function Contact() {
     subject: '',
     message: '',
   })
-  const [submitted, setSubmitted] = useState(false)
+const [submitted, setSubmitted] = useState(false)
+  const [loading, setLoading] = useState(false)
   const [errors, setErrors] = useState({})
 
   const validate = () => {
@@ -72,16 +73,29 @@ export default function Contact() {
     if (errors[name]) setErrors((prev) => ({ ...prev, [name]: '' }))
   }
 
-  const handleSubmit = (e) => {
+const handleSubmit = async (e) => {
     e.preventDefault()
     const errs = validate()
     if (Object.keys(errs).length > 0) {
       setErrors(errs)
       return
     }
-    setSubmitted(true)
+    setLoading(true)
+    try {
+const res = await fetch(`${import.meta.env.VITE_API_URL}/api/contact`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(form),
+      })
+      const data = await res.json()
+      if (!res.ok) throw new Error(data.message || 'Something went wrong')
+      setSubmitted(true)
+    } catch (err) {
+      setErrors({ submit: err.message })
+    } finally {
+      setLoading(false)
+    }
   }
-
   return (
     <div>
       <section className={styles.hero}>
@@ -236,11 +250,12 @@ export default function Contact() {
               </div>
 
               <div className={styles.formSubmit}>
-                <button type="submit" className="btn-primary">
-                  Submit Enquiry
-                  <span className="material-symbols-outlined" style={{ fontSize: '18px' }}>send</span>
+             <button type="submit" className="btn-primary" disabled={loading}>
+                  {loading ? 'Sending...' : 'Submit Enquiry'}
+                  <span className="material-symbols-outlined" style={{ fontSize: '18px' }}>{loading ? 'hourglass_empty' : 'send'}</span>
                 </button>
                 <p className={styles.formNote}>Fields marked with * are required.</p>
+                {errors.submit && <span className={styles.errorMsg}>{errors.submit}</span>}
               </div>
             </form>
           )}
