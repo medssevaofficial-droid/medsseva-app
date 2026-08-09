@@ -2,7 +2,7 @@ import { Smartphone, ShieldAlert, ExternalLink } from "lucide-react";
 import "./BuildDownload.css";
 
 export default function BuildDownload() {
-  const downloadUrl = "https://expo.dev/accounts/YOUR_ACCOUNT/projects/medseva/builds/YOUR_BUILD_ID";
+  const downloadUrl = "https://mega.nz/file/NutCkRaA#vN6tf2E517GkJn7vXPm352XQ1eR0unb3fmUaCOoazB8";
 
   return (
 <div className="build-page">
@@ -54,7 +54,7 @@ export default function BuildDownload() {
               rel="noopener noreferrer"
             >
               <ExternalLink size={18} />
-              Download from Expo
+              Download the App
             </a>
           </div>
 
