@@ -38,7 +38,7 @@ export default function BuildDownload() {
             </div>
             <div className="detail-row">
               <span className="detail-label">File size</span>
-              <span className="detail-value">98.69 MB</span>
+              <span className="detail-value">175.8 MB</span>
             </div>
             <div className="detail-row">
               <span className="detail-label">Version</span>
